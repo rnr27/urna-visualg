@@ -1,0 +1,28 @@
+algoritmo "urna"
+
+Var
+
+n:inteiro
+v: vetor [0..4] de inteiro
+valor1,valor2:inteiro
+sair,resultado:caractere
+
+Inicio
+
+repita
+    escreval("digite o numero do seu candidato")
+    leia(v[01])
+    n <- n + 1
+    ate n =4
+    se v [0]< entao
+    escreval("Ladrão ganhou")
+    senao
+    escreval("Mito ganhou")
+    fimse
+
+
+
+
+
+
+Fimalgoritmo
